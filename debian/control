@@ -1,0 +1,33 @@
+Source: python-jsl
+Section: python
+Priority: optional
+Maintainer: Julien Cristau <julien.cristau@logilab.fr>
+Homepage: https://pypi.python.org/pypi/jsl
+Build-Depends:
+ python-all,
+ python3-all,
+ debhelper (>= 9),
+ dh-python,
+Standards-Version: 3.9.7
+
+Package: python-jsl
+Architecture: all
+Depends:
+ ${python:Depends},
+ ${misc:Depends},
+Description: Python DSL for defining JSON schemas
+ JSON Schema is a JSON-based format to define the structure of JSON data for
+ validation and documentation.
+ .
+ JSL is a Python library that provides a DSL for describing JSON schemas.
+
+Package: python3-jsl
+Architecture: all
+Depends:
+ ${python3:Depends},
+ ${misc:Depends},
+Description: Python DSL for defining JSON schemas (python3 version)
+ JSON Schema is a JSON-based format to define the structure of JSON data for
+ validation and documentation.
+ .
+ JSL is a Python library that provides a DSL for describing JSON schemas.

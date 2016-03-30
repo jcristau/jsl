@@ -1,0 +1,5 @@
+python-jsl (0.2.2-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Wed, 30 Mar 2016 10:51:30 +0200
